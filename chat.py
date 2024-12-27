@@ -1,4 +1,3 @@
-from flask import Flask, request, jsonify
 from azure.identity import DefaultAzureCredential
 from azure.keyvault.secrets import SecretClient
 import argparse
